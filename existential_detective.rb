@@ -11,10 +11,10 @@ put_downs = ["a lack of respect.",  "an air of condescension.", "a hint of pomp 
 novel = "On a cold and dark night in London, Sherlock Holmes and Dr. Watson are out and about solving crimes...\n\n" +
 "THE TALE OF THE " + mark.generate.upcase + " VOLUME: " + ((rand 12) + 1).to_s + "\n"
 
-until novel.length > 50000
-  novel << " \"" + mark.generate + "\"" + ' said watson to holmes with ' + put_downs.sample + "\n"
+until novel.split.length > 50000
+  novel << " \"" + mark.generate + (rand < 0.2 ? mark.generate : '' ) + "\"" + ' said watson to holmes with ' + put_downs.sample + "\n"
 
-  novel << " \"" + mark.generate + "\"" + ' said holmes to watson with ' + put_downs.sample + "\n"
+  novel << " \"" + mark.generate + (rand < 0.2 ? mark.generate : '' ) + "\"" + ' said holmes to watson with ' + put_downs.sample + "\n"
 end
 
 puts novel
