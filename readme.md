@@ -6,6 +6,19 @@ and so i also saw that [NaNoGenMo 2014 National Novel Generation Month](https://
 
 so like, obviously existentialist detective novels.
 
+sauce: a few sherlock holmes novels + a mix of Sartre, Camus, Dostoevsky, Kafka, Breton, and ...
+
+
+
+
+
+
+
+
+
+
+
+
 ### $$$DEVELOPMENT
 
-fill the sauce directory with .txt files containing like just an absolute ton of words that u want to markov chain together and also bundle install probably once or twice.
+fill the sauce directory with .txt files containing like just an absolute ton of words that u want to markov chain together and also bundle install probably once or twice and then edit the .rb file and then run that .rb file with ruby, which is joy.
