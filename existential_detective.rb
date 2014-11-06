@@ -26,16 +26,18 @@ put_downs = ["a lack of respect.",
   "sort of a tilt to their head, as though they were maybe asking a question?",
    ]
 
-novel = "On a cold and dark night in London, Sherlock Holmes and Dr. Watson are having a passionate discussion about an ongoing case...\n\n" +
-(title = "THE CASE OF THE " + mark.generate.upcase) + " VOLUME: " + ((rand 12) + 1).to_s + "\n\n\n"
+novel = "<div style='width: 640px; margin: auto;font-family: Arial, Helvetica, sans-serif;'><h2><em>On a cold and dark night in London, Sherlock Holmes and Dr. Watson are having a passionate discussion about an ongoing case...</em></h2>\n\n" +
+(title = "<h1><strong>THE CASE OF THE " + mark.generate.upcase) + " VOLUME: " + ((rand 12) + 1).to_s + "</strong></h1>\n\n\n"
 
 until novel.split.length > 50000
-  novel << "\"" + mark.generate + (rand < 0.3 ? ' ' + mark.generate : '' ) + (rand < 0.15 ? ' ' + mark.generate : '' )  + "\"" + ' said Dr. Watson to Inspector Holmes with ' + put_downs.sample + "\n"
+  novel << "<p>\"" + mark.generate + (rand < 0.3 ? ' ' + mark.generate : '' ) + (rand < 0.3 ? ' ' + mark.generate : '' ) + (rand < 0.15 ? ' ' + mark.generate : '' )  + "\"<sub><em>" + ' said Dr. Watson to Inspector Holmes with ' + put_downs.sample + "</em></sub></p>\n"
 
-  novel << "\"" + mark.generate + (rand < 0.3 ? ' ' + mark.generate : '' ) + (rand < 0.15 ? ' ' + mark.generate : '' )  + "\"" + ' said Inspector Holmes to Dr. Watson with ' + put_downs.sample + "\n"
+  novel << "<p>\"" + mark.generate + (rand < 0.3 ? ' ' + mark.generate : '' ) + (rand < 0.3 ? ' ' + mark.generate : '' ) + (rand < 0.15 ? ' ' + mark.generate : '' )  + "\"<sub><em>" + ' said Inspector Holmes to Dr. Watson with ' + put_downs.sample + "</em></sub></p>\n"
 
 end
 
-File.open('text.txt', 'w') do |f|
+  novel << "<h3><strong><em>THE END</em></strong></h3></div>"
+
+File.open('text.html', 'w') do |f|
   f.puts novel
 end
