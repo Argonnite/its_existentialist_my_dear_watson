@@ -15,8 +15,11 @@ SAMPLE OUTPUT:
 
         "Mr. might go into the hallway in front of them from eight oclock till eleven in the. On loathing and so i inwardly attributed the same feeling to everyone." said Inspector Holmes to Dr. Watson with an urgent plea to stop global warming.
 
+SAMPLE OUTBOOKS:
 
+[THE CASE OF THE IT. AND NOW ILL BE TOO LATE WITH A MURDER DONE ON MY OWN DOORSTEP. VOLUME: 8](http://coleww.github.io/its_existentialist_my_dear_watson/the_case_of_the_it.html)
 
+[THE CASE OF THE THAT DO WHAT I WOULD IT SEEMED IMPOSSIBLE TO GET EVIDENCE WHICH WOULD! VOLUME: 4](http://coleww.github.io/its_existentialist_my_dear_watson/the_case_of_the_that.html)
 
 
 
