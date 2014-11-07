@@ -8,12 +8,12 @@ Starts with a 4gram markov chain made out of a few sherlock holmes novels + a mi
 
 SAMPLE OUTPUT:
 
-        "Young lady in question very well. Tender mother nature wished to see him when she graciously brought him." said Inspector Holmes to Dr. Watson with a light hint of sassiness.
-
-        Watson orders takeout from the pizza place and sighs as he considers: "He does it once or sometimes twice a day?"
-        "Hardware company. his knees were drawn up his head hung at a dreadful." said Dr. Watson to Inspector Holmes with no regard for their surroundings.
-
-        "Mr. might go into the hallway in front of them from eight oclock till eleven in the. On loathing and so i inwardly attributed the same feeling to everyone." said Inspector Holmes to Dr. Watson with an urgent plea to stop global warming.
+> "Young lady in question very well. Tender mother nature wished to see him when she graciously brought him."  said Inspector Holmes to Dr. Watson with a light hint of sassiness.
+>
+> Watson orders takeout from the pizza place and sighs as he considers: "He does it once or sometimes twice a  day?"
+> "Hardware company. his knees were drawn up his head hung at a dreadful." said Dr. Watson to Inspector Holmes  with no regard for their surroundings.
+>
+> "Mr. might go into the hallway in front of them from eight oclock till eleven in the. On loathing and so i > inwardly attributed the same feeling to everyone." said Inspector Holmes to Dr. Watson with an urgent plea to stop global warming.
 
 SAMPLE OUTBOOKS:
 
